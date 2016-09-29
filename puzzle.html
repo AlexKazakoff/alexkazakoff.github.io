@@ -11,7 +11,7 @@
 		function AskQuestion(textBoxId, answer)
 		{
 			var userAnswer = document.getElementById(textBoxId).value;
-			if(userAnswer == answer)
+			if(userAnswer.toLowerCase() == answer)
 				result++;
 
 		}
