@@ -1,0 +1,244 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic);
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f7f7f7;
+    font-family: 'Roboto', sans-serif;
+}
+#body span {
+    padding: 0 38px;
+}
+
+#header {
+    border: 1px solid #b5b7ba;
+    background-color: #dfdfdf;
+    min-width: 1280px;
+    height: 50px;
+    text-align: center;
+    padding-top: 18px;
+}
+
+#header #selected {
+    color: #000;
+}
+
+#center {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+#header a {
+    color: #4d4d4d;
+    font-size: 20px;
+    font-weight: 100;
+    text-align: left;
+    text-decoration: none;
+    height: 30px;
+    line-height: 30px;
+    display: inline-block;
+}
+
+#header span {
+    padding: 0 32px;
+}
+
+#content {
+    height: 755px;
+    min-width: 1200px;
+    margin: 0 auto;
+}
+
+#content h1 {
+    min-width: 1200px;
+    text-align: center;
+    color: #2e353d;
+    font-size: 40px;
+    font-weight: 300;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+#content h3 {
+    color: #242424;
+    font-size: 35px;
+    font-weight: 300;
+    text-align: left;
+    margin-left: 41px;
+    margin-bottom: 52px;
+}
+
+#content h5 {
+    color:  #242424;
+    font-size: 24px;
+    text-align: left;
+}
+
+#content img {
+    margin-left: 17px;
+    height: 480px;
+    border-radius: 50%;
+    margin-top: 40px;
+}
+
+
+
+#content #box_text {
+    width: 671px;
+    background-color: #ffffff;
+    float: right;
+    padding: 49px 48px 51px 76px;
+}
+
+#content #box_text p {
+    color: #242424;
+    font-size: 24px;
+    font-weight: 100;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+#content #box_text a  {
+    color: #1a02ff;
+    font-size: 24px;
+    font-weight: 100;
+    text-align: center;
+    text-decoration: none;
+    padding-right:30px;
+}
+
+#content #box_text a:hover  {
+    color: #ff430d;
+    font-size: 30px;
+}
+
+
+#content #contacts {
+    text-align: center;
+    font-size: 26px;
+}
+
+#content #contacts span {
+    padding: 0 38px;
+}
+#calc
+{
+    font-size: 28px;
+    font-weight:bold;
+    color: #2223d3;
+}
+#content .media {
+    margin-right: 0;
+}
+
+#content #box {
+    background-color: #ffffff;
+    width: 1238px;
+    height: 640px;
+    margin: 0 auto;
+    padding-top: 37px;
+    padding-left: 38px;
+}
+
+#content #box_1 {
+    background-color: #ffffff;
+    width: 1238px;
+    min-height: 800px;
+    margin: 0 auto;
+    padding-top: 37px;
+    padding-left: 38px;
+}
+
+
+#content #box_1 p {
+    color: #242424;
+    font-size: 24px;
+    font-weight: 100;
+    text-align: left;
+    margin-top: 37px;
+    margin-bottom: 30px;
+}
+
+#content #box_1 input {
+    border: 1px solid #a0a0a0;
+    background-color: #f5f5f5;
+    width: 457px;
+    height: 34px;
+    padding-left:10px;
+    font-size:20px;
+    font-weight: 100;
+    margin-bottom: 1px;
+}
+
+#content #box_1 a {
+    display: block;
+    float: left;
+    background-color: #2223d3;
+    color: white;
+    font-size: 24px;
+    font-weight: 300;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 30px;
+    padding:11px 51px;
+}
+
+#content #box_1 a:hover {
+    background-color: #5ba1d3;
+}
+
+#content #box p {
+    color: #242424;
+    font-size: 24px;
+    font-weight: 100;
+    text-align: left;
+    margin-top: 37px;
+    margin-bottom: 30px;
+}
+
+#content #box input {
+    border: 1px solid #a0a0a0;
+    background-color: #f5f5f5;
+    width: 457px;
+    height: 34px;
+    padding-left:10px;
+    font-size:20px;
+    font-weight: 100;
+    margin-bottom: 12px;
+}
+
+#content #box a {
+    display: block;
+    float: left;
+    background-color: #2223d3;
+    color: white;
+    font-size: 24px;
+    font-weight: 300;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 30px;
+    padding:11px 51px;
+}
+
+#content #box a:hover {
+    background-color: #5ba1d3;
+}
+
+#footer {
+    background-color: #434445;
+    min-width: 1280px;
+    height: 101px;
+    margin: 0 auto;
+    text-align: center;
+    color: #92baf9;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 103px;
+}
+
+#footer a {
+    color: inherit;
+}
