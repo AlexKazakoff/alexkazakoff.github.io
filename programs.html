@@ -39,12 +39,17 @@
 					var deposit = +calc.deposit.value;
 					var percent = +calc.percent.value;
 					var years = +calc.years.value;
+					if (deposit <= 0 || years <= 0 || percent <= 0) {
+					document.getElementById('result').innerHTML = 'Вводить можно лишь положительные числа';
+					}
+					else
+					{
 					for (var i = 1; i <= years; i++) {
 						deposit = deposit + (deposit * percent / 100);
 					}
 
 					document.getElementById('result').innerHTML = 'Сумма в конце срока: ' + deposit.toFixed(2);
-
+}
 				}
 			</script>
 
